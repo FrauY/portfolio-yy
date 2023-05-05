@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: rgb(85, 173, 107);
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -88,6 +88,9 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.hero {
+  background-color: rgba(28, 207, 28, 0.2);
 }
 @media (max-width: 576px) {
   h1 {
