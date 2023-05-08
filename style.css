@@ -89,9 +89,16 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.link {
+  text-align: center;
+  border-radius: 4px;
+  padding: 20px 15px;
+}
+
 .hero {
   background-color: rgba(25, 135, 84, 0.2);
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
