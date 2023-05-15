@@ -45,25 +45,6 @@ p {
   margin: 20px;
 }
 
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  border: 1px solid var(--primary-color);
-  background-color: none;
-}
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -112,7 +93,7 @@ p {
     text-align: center;
   }
   .primary-link {
-    padding: 10px 5px;
+    padding: 5px 5px;
     display: block;
     text-align: center;
   }
