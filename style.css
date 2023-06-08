@@ -58,9 +58,9 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .email-link:hover {
@@ -75,7 +75,12 @@ p {
 .hero {
   background-color: rgba(25, 135, 84, 0.2);
 }
-
+.projects-link {
+  color: black;
+}
+.projects-link:hover {
+  color: var(--primary-color);
+}
 @media (max-width: 750px) {
   h1 {
     font-size: 48px;
